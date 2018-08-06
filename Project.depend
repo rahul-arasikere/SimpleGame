@@ -1,0 +1,136 @@
+# depslib dependency file v1.0
+1510506268 source:c:\users\arasi\desktop\project\main.cpp
+	<allegro.h>
+	"include/ScreenManager.h"
+
+1505966106 c:\users\arasi\desktop\project\player.h
+	<allegro.h>
+
+1510502912 source:c:\users\arasi\desktop\project\src\camera.cpp
+	"../include/Camera.h"
+
+1506320728 c:\users\arasi\desktop\project\include\camera.h
+	<allegro.h>
+	"Global.h"
+
+1506321231 source:c:\users\arasi\desktop\project\src\player.cpp
+	"../include/Player.h"
+
+1506321247 c:\users\arasi\desktop\project\include\player.h
+	"Global.h"
+	<allegro.h>
+
+1506098089 c:\users\arasi\desktop\project\include\global.h
+
+1506320720 c:\users\arasi\desktop\project\include\map.h
+	<allegro.h>
+	<fstream>
+	<algorithm>
+	<string>
+	"Global.h"
+
+1506151121 source:c:\users\arasi\desktop\project\src\map.cpp
+	"../include/Map.h"
+
+1506321047 c:\users\arasi\desktop\project\include\collision.h
+	<allegro.h>
+	<string>
+	<algorithm>
+	<fstream>
+	"Global.h"
+	"Player.h"
+	"Map.h"
+	"Enemy.h"
+
+1506321285 source:c:\users\arasi\desktop\project\src\collision.cpp
+	"../include/Collision.h"
+
+1506321105 source:c:\users\arasi\desktop\project\src\enemy.cpp
+	"../include/Enemy.h"
+
+1506321077 c:\users\arasi\desktop\project\include\enemy.h
+	<allegro.h>
+	<fstream>
+	<cmath>
+
+1510506875 c:\users\arasi\desktop\project\include\screenmanager.h
+	<allegro.h>
+	<string>
+	<ctime>
+	<sstream>
+	"Enemy.h"
+	"Player.h"
+	"Camera.h"
+	"Global.h"
+	"Map.h"
+	"Collision.h"
+
+1510506927 source:c:\users\arasi\desktop\project\src\screenmanager.cpp
+	"ScreenManager.h"
+
+1510733905 source:c:\documents and settings\student\desktop\project\main.cpp
+	<allegro.h>
+	"include/ScreenManager.h"
+
+1510487590 c:\documents and settings\student\desktop\project\include\screenmanager.h
+	<allegro.h>
+	<string>
+	<ctime>
+	<sstream>
+	"Enemy.h"
+	"Player.h"
+	"Camera.h"
+	"Global.h"
+	"Map.h"
+	"Collision.h"
+
+1510487590 c:\documents and settings\student\desktop\project\include\enemy.h
+	<allegro.h>
+	<fstream>
+	<cmath>
+
+1510820503 c:\documents and settings\student\desktop\project\include\player.h
+	"Global.h"
+	<allegro.h>
+
+1510487590 c:\documents and settings\student\desktop\project\include\global.h
+
+1510487590 c:\documents and settings\student\desktop\project\include\camera.h
+	<allegro.h>
+	"Global.h"
+
+1510736256 c:\documents and settings\student\desktop\project\include\map.h
+	<allegro.h>
+	<fstream>
+	<algorithm>
+	<string>
+	"Global.h"
+
+1510487590 c:\documents and settings\student\desktop\project\include\collision.h
+	<allegro.h>
+	<string>
+	<algorithm>
+	<fstream>
+	"Global.h"
+	"Player.h"
+	"Map.h"
+	"Enemy.h"
+
+1510487592 source:c:\documents and settings\student\desktop\project\src\camera.cpp
+	"../include/Camera.h"
+
+1510564043 source:c:\documents and settings\student\desktop\project\src\collision.cpp
+	"../include/Collision.h"
+
+1510487592 source:c:\documents and settings\student\desktop\project\src\enemy.cpp
+	"../include/Enemy.h"
+
+1510736637 source:c:\documents and settings\student\desktop\project\src\map.cpp
+	"../include/Map.h"
+
+1510487592 source:c:\documents and settings\student\desktop\project\src\player.cpp
+	"../include/Player.h"
+
+1510734730 source:c:\documents and settings\student\desktop\project\src\screenmanager.cpp
+	"../include/ScreenManager.h"
+
