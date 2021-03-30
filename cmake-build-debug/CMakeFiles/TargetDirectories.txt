@@ -1,3 +1,0 @@
-/home/arasi/workspace/Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/arasi/workspace/Game/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/arasi/workspace/Game/cmake-build-debug/CMakeFiles/Game.dir

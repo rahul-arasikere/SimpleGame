@@ -1,34 +1,23 @@
 cmake_minimum_required(VERSION 3.12)
-project(Game)
+project(game)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
-include_directories(enemy)
-include_directories(include)
-include_directories(levels)
-include_directories(media)
-include_directories(src)
+include(ExternalProject)
 
-add_executable(Game
-        enemy/Enemy.txt
-        include/Camera.h
-        include/Collision.h
-        include/Enemy.h
-        include/Global.h
-        include/Map.h
-        include/Player.h
-        include/ScreenManager.h
-        levels/ColMap1.txt
-        levels/ColMap2.txt
-        levels/ColMap3.txt
-        levels/Map1.txt
-        levels/Map2.txt
-        levels/Map3.txt
-        media/gameover.bmp
-        media/ground.bmp
-        media/stone.bmp
-        media/title.bmp
+ExternalProject_Add(allegro
+        GIT_REPOSITORY  "https://github.com/liballeg/allegro5.git"
+        GIT_TAG         "4.4"
+        PREFIX          ${CMAKE_CURRENT_BINARY_DIR}/allegro
+        CMAKE_ARGS      -DCMAKE_INSTALL_PREFIX:PATH=<INSTALL_DIR>
+)
+
+ExternalProject_Get_Property(allegro install_dir)
+
+include_directories(${install_dir}/include)
+include_directories(include)
+
+add_executable(game
         src/Camera.cpp
         src/Collision.cpp
         src/Enemy.cpp
@@ -36,5 +25,8 @@ add_executable(Game
         src/Player.cpp
         src/ScreenManager.cpp
         main.cpp
-        README.md)
+)
 
+add_dependencies(game allegro)
+target_link_directories(game PUBLIC ${install_dir}/lib)
+target_link_libraries(game alleg jpgalleg loadpng alleggl)

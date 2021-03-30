@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Game.dir/src/Camera.cpp.o CMakeFiles/Game.dir/src/Collision.cpp.o CMakeFiles/Game.dir/src/Enemy.cpp.o CMakeFiles/Game.dir/src/Map.cpp.o CMakeFiles/Game.dir/src/Player.cpp.o CMakeFiles/Game.dir/src/ScreenManager.cpp.o CMakeFiles/Game.dir/main.cpp.o  -o Game 
