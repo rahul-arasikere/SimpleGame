@@ -1,5 +1,5 @@
 #include <allegro.h>
-#include "include/ScreenManager.h"
+#include "../include/ScreenManager.h"
 
 volatile long counter = 0;
 

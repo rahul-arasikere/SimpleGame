@@ -24,7 +24,7 @@ add_executable(game
         src/Map.cpp
         src/Player.cpp
         src/ScreenManager.cpp
-        main.cpp
+        src/main.cpp
 )
 
 add_dependencies(game allegro)
